@@ -1,0 +1,48 @@
+.enter__container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.enter__labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.enter__label {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.enter__label:nth-child(2n) {
+    margin-top: 10px;
+}
+
+.enter__text {
+    display: block;
+    overflow: hidden;
+    flex: 1;
+}
+
+.enter__input {
+    flex: 2;
+    padding-right: 120px;
+}
+
+.enter__error {
+    text-align: right;
+    font-size: 10px;
+    position: absolute;
+    max-width: 120px;
+    color: red;
+    right: 2px;
+}

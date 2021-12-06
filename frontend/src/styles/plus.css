@@ -1,0 +1,13 @@
+.plus {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    cursor: pointer;
+}
+
+.plus__img:hover {
+    transition: .4s;
+    filter: opacity(.5);
+}

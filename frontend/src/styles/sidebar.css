@@ -1,0 +1,14 @@
+.sidebar {
+    padding: 5px;
+    flex: 1;
+    background-color: var(--brown);
+    position: relative;
+}
+
+.sidebar__item--active {
+    font-weight: bold;
+}
+
+.sidebar__item:not(:first-child) {
+    margin-top: 10px;
+}

@@ -1,0 +1,48 @@
+.messages {
+    flex: 1;
+    /*width: 100%;*/
+    height: 100%;
+    position: relative;
+}
+
+.messages__form {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.messages__list {
+    height: 80%;
+    padding: 2px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.messages__item {
+    /*display: inline-block;*/
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: var(--brown);
+    margin-top: 2px;
+}
+
+.message__info {
+    color: beige;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2px;
+}
+
+.messages__textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 1px solid black;
+}
+
+.messages__btn {
+    margin: 10px 0 0 0;
+}
